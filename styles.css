@@ -1,0 +1,332 @@
+body {
+      font: Arial, sans-serif;
+      background: #114;
+      color: #fff;
+      margin: 0;
+      text-align: center;
+
+    }
+    h1{
+      font-size: 70px;
+      font-family: Franklin Gothic Medium;
+      padding-top: 100px;
+      padding-right: 300px;
+    }
+        #p{
+    
+      padding-right: 550px;
+    }
+    header {
+      background: #007bff;
+      text-align: center;
+      padding: 20px;
+      height: 377px;
+      overflow: hidden;
+      background-image: url('palpi.png');
+    
+}
+
+
+    .menu {
+      display: flex;
+      justify-content: center;
+      background: #222;
+      gap: 20px;
+      padding: 10px;
+    box-shadow:0 0 10px ghostwhite ;
+    border-radius: 1vh;
+  margin: auto;
+
+  
+
+    }
+    .menu button {
+      background:#001433;
+      box-shadow:0 0 10px red;
+border-radius: 5%;
+      border: none;
+      overflow-x: auto;
+      padding: 10px 15px;
+      color: white;
+      cursor: pointer;
+      border-radius: 10px;
+      width: 300px;
+      height: 70px;
+      font: 20px;
+    }
+    .menu button::-webkit-scrollbar {
+  display: flex;
+    }
+    .content > section {
+      display: none;
+      padding: 20px;
+height: 100;
+    }
+  hr{
+    color: white;
+    background: white;
+  }
+    .card {
+      background: #1c1c1c;
+      border-left: solid white 1px; 
+      border-bottom: 1px  solid white;
+      height: 30px;
+      padding: 10px;
+margin-bottom: 15px;
+ }
+ h2{
+   font-size: 50px;
+ }
+     
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 8px;
+    }
+    .card p{
+      text-align: justify;
+    }
+    #ro{
+      
+      font-size: 15px;
+    }
+    footer {
+      background: #001433;
+      text-align: center;
+      color: #ccc;
+      height: 70px;
+      margin: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 1000; /* Garante que fica por cima de outros elementos */
+
+
+    }
+
+    
+    
+    .pape{
+      position: absolute;
+     width: 200px;
+    display: inline-flex;
+     
+    animation: pape-animation 9s infinite linear;
+    right: -200px;
+    }
+  
+
+    
+    @keyframes pape-animation{
+      from{
+        right: -200px;
+      }
+      to{
+        
+        right: 100%;
+        
+      opacity: 0.1%;
+        
+      
+      }
+      
+    }
+    
+    
+  
+    .gami{
+      width: 100%;
+      height: 40px;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+    
+    }
+
+    @media (max-width: 500px){
+      .menu button{
+        background: #001433;
+    height: 43px ;
+    width: 100px;
+        font-weight: bold;
+      }
+      h3{
+        font-size: 9px;
+      }
+      table{
+        width: 499px;
+      }
+            .menu{
+        display: grid;
+      grid-template-rows: 2fr 2fr;
+    margin-bottom: 30px;
+    background: none;
+    box-shadow: none;
+    
+      }
+      .gami{
+        box-shadow: white 0 0 10px; 
+        width: 499px;
+      height: 40px;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+    
+    
+
+      }
+      
+      header{
+        background: #007bff;
+      text-align: center;
+      padding: 20px;
+      height: 70px;
+      overflow: hidden;
+      background-image: url('palpi.png');
+    
+        
+      }
+
+  
+    }
+    
+    /*texte*/
+    
+        :root {
+            --pl-purple: #3d195b;
+            --pl-green: #00ff85;
+            --pl-white: #ffffff;
+            --pl-gray: #f4f4f4;
+        }
+
+        .pl-container {
+            font-family: 'Inter', Arial, sans-serif;
+            width: 100%;
+            margin: 0;
+          background-color: var(--pl-gray);
+
+
+            border-radius: 12px;
+        }
+
+        .pl-header {
+            background-color: var(--pl-purple);
+            color: var(--pl-white);
+            
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+            margin-bottom: 0;
+          
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: var(--pl-white);
+          
+            padding-bottom: 20px;
+            margin-bottom: 70px;
+            
+        }
+
+        th {
+            background-color: #371554;
+            color: var(--pl-white);
+            padding: 15px;
+            text-align: left;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            font-size: 0.95rem;
+            color: #333;
+        }
+
+        .game-row:hover {
+            background-color: #C6C9F3;
+        }
+                tr:hover {
+            background-color: #C6C9F3;
+            cursor: pointer;
+            
+        }
+
+        .date-col { font-weight: bold; color: #666; width: 80px; }
+        .match-col { font-weight: 800; 
+        color: var(--pl-purple); 
+          
+        }
+        
+        .tip-badge {
+            display: inline-block;
+            padding: 6px 12px;
+            background-color: var(--pl-green);
+            color: var(--pl-purple);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .secondary-tip {
+            display: inline-block;
+            padding: 6px 12px;
+            background-color: #e0e0e0;
+            color: #444;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 768px) {
+            td { padding: 10px; font-size: 0.85rem; }
+            .tip-badge, .secondary-tip { display: block; margin-bottom: 5px; text-align: center; }
+        }
+        .badge-1,.badge-ucl{
+          display: inline-block;
+            padding: 6px 12px;
+            background-color: var(--pl-green);
+            
+                        font-size: 0.95rem;
+            color: #333;
+            border-radius: 20px;
+          
+            font-weight: bold;
+            margin-right: 5px;
+   
+                }
+                .badge-2,.badge-alt{
+                  display: inline-block;
+            
+            background-color: #e0e0e0;
+            color: var(--pl-purple);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-right: 5px;
+            
+   
+                }
+                .jogo-v{
+                  display: inline-block;
+          
+        
+                        font-size: 0.95rem;
+            font-weight: 800; 
+        color: var(--pl-purple); 
+                
+                }
+                .ucl-match{
+                  font-weight: 800;
+color: var(--pl-purple);
+                }
