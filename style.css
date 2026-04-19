@@ -1,0 +1,52 @@
+*{
+margin: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 38px;
+padding: 8px;
+
+}
+h2{
+  text-align: center;
+}
+    h1{
+      font-size: 70px;
+      font-family: Franklin Gothic Medium;
+      color: white;
+      padding-top: 100px;
+      padding-right: 300px;
+    }
+#h{
+  font-size: 40px;
+  text-align: center;
+
+}
+    header{
+      
+      background: #007bff;
+      text-align: center;
+      padding: 20px;
+      height: 377px;
+      overflow: hidden;
+      background-image: url('palpi.png');
+    margin: 0;
+    color: white;
+    
+}
+
+    footer {
+      background: #001433;
+      text-align: center;
+      color: #ccc;
+      height: auto;
+      margin: 0;
+  position: fixed;
+  left: 0;
+  font-size: 30px;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+  z-index: 1000px; /* Garante que fica por cima de outros elementos */
+
+
+    }
