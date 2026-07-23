@@ -10,6 +10,51 @@
 <link rel="stylesheet" href="styles.css">
 
 </head>
+<style>
+/* Botão */
+#avisoBtn{
+    background: #B1B3CF;
+    position:fixed;
+    top:20px;
+    right:20px;
+    color:black;
+    border:none;
+    padding:16px 28px;
+    font-size:30px;
+    font-weight:bold;
+    border-radius:12px;
+    cursor:pointer;
+    box-shadow:0 4px 10px rgba(0,0,0,.3);
+    z-index:9999;
+}
+
+/* Caixa da mensagem */
+#avisoBox{
+    position:fixed;
+    top:90px;
+    right:20px;
+    width:390px;
+    background:#fff;
+    border-left:6px solid    #313BAF;
+    border-radius:12px;
+    padding:18px;
+    box-shadow:0 6px 15px rgba(0,0,0,.3);
+    display:none;
+    z-index:9988;
+}
+
+#avisoBox h3{
+    margin:0 0 10px;
+    color:#313BAF;
+    font-size:34px;
+}
+
+#avisoBox p{
+    font-size:27px;
+    color:#333;
+    line-height:1.6;
+}
+</style>
 <body>
 
 <header>
