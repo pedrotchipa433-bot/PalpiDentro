@@ -91,21 +91,34 @@ margin-bottom: 15px;
       
       font-size: 15px;
     }
+   footer nav ul li a{ 
+      text-decoration: none;
+      color: white;
+      
+    }
+    footer nav ul li { 
+      list-style: none;
+      color: white;
+      
+    }
     footer {
       background: #001433;
       text-align: center;
       color: #ccc;
-      height: 70px;
+      height: auto;
       margin: 0;
   position: fixed;
   left: 0;
+  font-size: 30px;
   bottom: 0;
   width: 100%;
-  padding: 10px 0;
-  z-index: 1000; /* Garante que fica por cima de outros elementos */
+  padding: 0;
+  z-index: 1000px; /* Garante que fica por cima de outros elementos */
 
 
     }
+
+    
 
     
     
