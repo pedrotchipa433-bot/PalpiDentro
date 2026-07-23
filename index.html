@@ -309,6 +309,17 @@
         zoneId: 'llkxoctiz1',
     });
 </script>
+<script>
+const botao = document.getElementById("avisoBtn");
+const caixa = document.getElementById("avisoBox");
 
+botao.addEventListener("click", function(){
+    if(caixa.style.display === "block"){
+        caixa.style.display = "none";
+    }else{
+        caixa.style.display = "block";
+    }
+});
+</script>
 </body>
 </html>
